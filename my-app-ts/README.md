@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# 💳 Página de Login - Aplicação Bancária (Projeto de Estudo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o desenvolvimento de uma página de login para uma aplicação bancária fictícia, com foco educacional. O projeto foi estruturado em **React**, utilizando componentes reutilizáveis e teste unitário básico.
 
-## Available Scripts
+## 🎯 Objetivo
 
-In the project directory, you can run:
+Praticar a componentização com React, aplicar boas práticas de estruturação de interfaces e realizar testes unitários simples, simulando a tela de login de um sistema bancário.
+
+## 🛠️ Funcionalidades implementadas
+
+- **Componente Header:** Exibe o título da aplicação no topo da página.
+- **Componente Button:** Botão reutilizável com suporte à prop `onClick`.
+- **Componente Card:** Encapsula o formulário de login, abstraindo a estrutura da página inicial.
+- **Função de boas-vindas:** Ao clicar no botão de login, exibe um `alert` com uma mensagem de boas-vindas.
+- **Teste unitário:** A função de boas-vindas foi testada com **Jest** para garantir seu correto funcionamento.
+
+
+## 🧪 Testes
+
+Os testes foram escritos utilizando **Jest**, com verificação de exibição do `alert` ao acionar a função de boas-vindas.
+
+---
+
+## 🚀 Primeiros Passos com Create React App
+
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+
+### 📜 Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Roda a aplicação em modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-la no navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A página será recarregada automaticamente se você fizer alterações no código.\
+Você também verá erros de lint no console, se houver.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executador de testes no modo interativo.\
+Veja a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cria a versão otimizada da aplicação para produção na pasta `build`.\
+O React é empacotado corretamente no modo de produção e a build é otimizada para melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Os arquivos são minificados e os nomes de arquivos incluem hashes.\
+Sua aplicação estará pronta para ser publicada!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consulte a seção sobre [publicação](https://facebook.github.io/create-react-app/docs/deployment) para mais detalhes.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Atenção: esta é uma operação sem volta! Uma vez feito o `eject`, não há como retornar.**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com a ferramenta de build e as configurações padrão, pode executar `eject` a qualquer momento. Este comando copiará todas as configurações e dependências (Webpack, Babel, ESLint, etc) diretamente para o seu projeto, permitindo controle total.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Todos os comandos continuarão funcionando, mas agora apontando para os arquivos copiados, que você poderá modificar livremente. A partir desse ponto, você estará por conta própria.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Você **não precisa** usar o `eject`. O conjunto de recursos já é adequado para a maioria dos projetos pequenos e médios. No entanto, entendemos que em certos casos pode ser necessário personalizar a estrutura.
 
-## Learn More
+## 📚 Saiba Mais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para aprender React, acesse a [documentação oficial do React](https://reactjs.org/).
+
+---
+
+> Projeto desenvolvido para fins educacionais.
